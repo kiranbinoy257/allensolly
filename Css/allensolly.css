@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(3, 39, 61);
+}
+#a1{
+    text-align: center;
+    color: white;
+}
+@media screen and (min-width:768px) and (max-width:998px){
+    .a{
+        height: 40px;
+        width: 100%;
+        background-color: rgb(66, 88, 8);
+    }
+    #a1{
+        text-align: center;
+        color: white;
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:768px){
+    .a{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(58, 5, 50);
+    }
+    #a1{
+        text-align: center;
+        color: white;
+        font-size: 50%;
+    }
+}
+.b{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(81, 38, 6);
+}
